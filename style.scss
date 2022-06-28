@@ -1,0 +1,25 @@
+@import 'sass/vars';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $cream;
+}
+
+.card {
+  max-width: $mobile;
+  margin: 0 auto;
+}
+
+.card--heroImage__mobile {
+  max-width: 100%;
+}
+
+.card--heroImage__desktop {
+  display: none;
+}
+
+
+
+
