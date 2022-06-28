@@ -1,0 +1,28 @@
+{
+  "name": "product-card-component",
+  "version": "1.0.0",
+  "description": "A Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnzlplcs/product-card-component.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "web",
+    "responsive"
+  ],
+  "author": "Gonzalo Palacios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnzlplcs/product-card-component/issues"
+  },
+  "homepage": "https://github.com/gnzlplcs/product-card-component#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
