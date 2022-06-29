@@ -1,4 +1,4 @@
-@import 'sass/vars';
+@import 'sass/_vars.scss';
 
 body {
   margin: 0;
@@ -10,16 +10,60 @@ body {
 .card {
   max-width: $mobile;
   margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: $white;
 }
 
-.card--heroImage__mobile {
+.card--hero-image__mobile {
   max-width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
-.card--heroImage__desktop {
+.card--hero-image__desktop {
   display: none;
 }
 
+.card--content {
+  padding: 20px;
+}
 
+.card--content__title {
+  font-family: $font-fraunces;
+  font-size: 2.4rem;
+  margin: 0;
+}
 
+.card--content__product {
+  margin: 6px 0;
+  font-family: $font-monserrat;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color: $dark-grayish-blue;
+}
 
+.card--content__description {
+  font-family: $font-monserrat;
+  font-size: 14px;
+  font-weight: 100;
+  color: $dark-grayish-blue;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.card--content__price-new {
+  font-family: $font-fraunces;
+  font-size: 2.2rem;
+  color: $dark-cyan;
+
+}
+
+.card--content__price-old {
+  font-family: $font-monserrat;
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: $dark-grayish-blue;
+
+}

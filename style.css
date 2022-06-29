@@ -9,14 +9,60 @@ body {
 .card {
   max-width: 375px;
   margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
 }
 
-.card--heroImage__mobile {
+.card--hero-image__mobile {
   max-width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
-.card--heroImage__desktop {
+.card--hero-image__desktop {
   display: none;
+}
+
+.card--content {
+  padding: 20px;
+}
+
+.card--content__title {
+  font-family: "Fraunces", serif;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.card--content__product {
+  margin: 6px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color: #6c7289;
+}
+
+.card--content__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #6c7289;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.card--content__price-new {
+  font-family: "Fraunces", serif;
+  font-size: 2.2rem;
+  color: #3c8067;
+}
+
+.card--content__price-old {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: #6c7289;
 }
 
 /*# sourceMappingURL=style.css.map */
