@@ -81,19 +81,94 @@ body {
   align-items: center;
   background-color: #3c8067;
   color: white;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
   margin-top: 20px;
   width: 100%;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
   border: none;
   border-radius: 10px;
 }
-
 .card--content__button img {
   width: 20px;
   margin-right: 10px;
+}
+
+.attribution {
+  color: #6c7289;
+  text-align: center;
+  margin: 10px 0;
+}
+.attribution a {
+  text-decoration: none;
+  color: #6c7289;
+}
+.attribution a:hover {
+  color: #1c232b;
+  border-bottom: 1px solid #1c232b;
+}
+
+@media screen and (min-width: 375px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+  }
+
+  .card--hero-image {
+    max-height: 100%;
+  }
+
+  .card--hero-image__mobile {
+    display: none;
+  }
+
+  .card--hero-image__desktop {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .card--content__title {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+
+  .card--content__description {
+    font-size: 1.2rem;
+  }
+
+  .card--content__price {
+    margin-top: 45px;
+  }
+
+  .card--content__price-new {
+    font-size: 2.5rem;
+  }
+
+  .card--content__price-old {
+    font-size: 1rem;
+  }
+
+  .card--content__button {
+    font-size: 1.1rem;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .card--content__button:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+  }
+  .card--content__button img {
+    width: 22px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
